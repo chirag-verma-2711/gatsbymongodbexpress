@@ -8,7 +8,7 @@ const UsersPage = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('http://owlqr.com:3000/api/users');
+        const response = await fetch('https://owlqr.com:3000/api/users');
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
