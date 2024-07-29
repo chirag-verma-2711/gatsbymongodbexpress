@@ -34,7 +34,7 @@ const UsersPage = () => {
 
   return (
     <div>
-      <h1>Users</h1>
+      <h1>Wp_Users</h1>
       {users && users.length > 0 ? (
         <ul>
           {users.map(user => (
